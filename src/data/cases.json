@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "speaker": "The Prosecutor",
+    "scene": "Accused Scene",
+    "text": "The defendant was caught stealing the royal pigeons! They claim they were just 'borrowing' them to start a feather collection.",
+    "choices": [
+      { "label": "PRISON", "impact": { "trust": 10, "economy": -5, "chaos": -5 } },
+      { "label": "FREE HUGS", "impact": { "trust": -10, "economy": 0, "chaos": 20 } }
+    ]
+  },
+  {
+    "id": 2,
+    "speaker": "The Judge",
+    "scene": "Accused Scene",
+    "text": "The accused has a history of 'misplacing' other people's gold. Should we enforce a strict curfew or let them work it off?",
+    "choices": [
+      { "label": "CURFEW", "impact": { "trust": 5, "economy": -2, "chaos": -10 } },
+      { "label": "WORK IT", "impact": { "trust": -2, "economy": 15, "chaos": 5 } }
+    ]
+  },
+  {
+    "id": 3,
+    "speaker": "Detective",
+    "scene": "Suspect Scene",
+    "text": "This suspect was found near the scene of the 'Great Jam Heist'. They have purple stains on their hands!",
+    "choices": [
+      { "label": "LOCK UP", "impact": { "trust": 15, "economy": -5, "chaos": -10 } },
+      { "label": "LET GO", "impact": { "trust": -10, "economy": 5, "chaos": 15 } }
+    ]
+  },
+  {
+    "id": 4,
+    "speaker": "Chief Justice",
+    "scene": "Suspect Scene",
+    "text": "The suspect claims they were just 'quality testing' the royal marmalade. A likely story!",
+    "choices": [
+      { "label": "GUILTY", "impact": { "trust": 10, "economy": 0, "chaos": -5 } },
+      { "label": "INNOCENT", "impact": { "trust": -15, "economy": 0, "chaos": 20 } }
+    ]
+  },
+  {
+    "id": 5,
+    "speaker": "Witness",
+    "scene": "Witness Scene",
+    "text": "I saw everything! The cat didn't knock over the vase, it was a gust of wind! (The witness is clearly three cats in a trench coat).",
+    "choices": [
+      { "label": "BELIEVE", "impact": { "trust": -20, "economy": 0, "chaos": 30 } },
+      { "label": "DISMISS", "impact": { "trust": 10, "economy": 0, "chaos": -10 } }
+    ]
+  },
+  {
+    "id": 6,
+    "speaker": "The Accused Witness",
+    "scene": "Witness Scene",
+    "text": "I testify that I am innocent of being a witness to my own crime! Wait, that's not right...",
+    "choices": [
+      { "label": "ORDER!", "impact": { "trust": 5, "economy": 0, "chaos": -15 } },
+      { "label": "CONFUSED", "impact": { "trust": -5, "economy": 0, "chaos": 10 } }
+    ]
+  },
+  {
+    "id": 7,
+    "speaker": "High Judge",
+    "scene": "Witness Scene",
+    "text": "The court is in disarray. Shall we call for a recess or push through to the final verdict?",
+    "choices": [
+      { "label": "RECESS", "impact": { "trust": 5, "economy": -10, "chaos": -5 } },
+      { "label": "VERDICT", "impact": { "trust": 10, "economy": 5, "chaos": 10 } }
+    ]
+  }
+]
